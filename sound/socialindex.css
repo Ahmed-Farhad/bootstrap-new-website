@@ -1,0 +1,105 @@
+
+*,*::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+}
+
+:root{
+    --color-white: hsl(252, 30%, 100%);
+    --color-light: hsl(252, 30%, 95%);
+    --color-gray: hsl(253, 14%, 45%);
+    --color-primary: hsl(252, 75%, 60%);
+    --color-secondary: hsl(252, 100%, 90%);
+    --color-success: hsl(120, 95%, 65%);
+    --color-danger: hsl(0, 95%, 65%);
+    --color-dark: hsl(252, 30%, 17%);
+    --color-black: hsl(252, 30%, 10%);
+
+    --border-radius: 2rem;
+    --card-border-radius: 1rem;
+    --btn-padding: 0.6rem 2rem;
+    --search-padding: 0.6rem 1rem;
+    --card-padding: 1rem;
+
+    --stk-top-left: 5.4rem;
+    --stk-top-right: -18rem;
+}
+
+body{
+     
+     background: #FFFFFF;
+     font-family: 'Poppins', sans-serif;;
+}
+
+.row{
+    margin-bottom: 20px;
+}
+
+.pagi div div{
+    background: #B2ccdd;
+    border: 5px solid #0a3d62;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about{
+    background-color: #E7E9EB;
+}
+
+.img{
+    
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.card-body img{
+    height: 200px;
+    width: 200px;
+    
+} 
+
+.feedback{
+    
+}
+
+.feedback .hr{
+   
+}
+
+.carousel-img{
+    width: 300px;
+    height: 300px;
+}
+
+.carousel-indicators{
+    bottom: -40px;
+    
+}
+
+.carousel-item{
+   
+}
+
+.contact{
+    background-color: #E2F5E0;
+}
+
+
+/* 
+xtra small < 576px
+small   sm > 576px
+medium   md  >= 768px
+large   lg  >= 992px
+extra large  xl   >= 1200px
+extra extra large  xxl  >= 1400px
+*/
